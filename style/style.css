@@ -1,0 +1,160 @@
+body{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /
+}
+ .container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.top{
+ border: 1px solid blacks;
+ background-color: aqua;
+}
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    float: right;
+    margin: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.middle{
+    /* background-color: red; */
+    position: relative;
+    top: 110px;
+}
+ img{
+    position: absolute;
+    display: grid;
+    top: 30px; 
+    left: 525px;
+
+}
+
+.bottom{
+    position: relative;
+    top: 270px;
+    left: 370px;
+}
+ 
+.search input{
+    width: 520px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 60px;
+    border: 1px solid lightgray;
+    font-size: large;
+    z-index: auto;
+}
+.search input:hover{
+    box-shadow: -1px -1px 10px  lightgray;
+    box-shadow: 1px 1px 10px  lightgray;
+}
+
+.validate{
+    position: absolute;
+    left: 145px;
+}
+.validate input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    opacity: .8;
+}
+.validate input:hover{
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.lang small{
+    text-align: center;
+    opacity: .8;
+    /* text-transform: capitalize; */
+}
+.lang small a{
+    text-decoration: none;
+    color: blue;
+}
+.lang{
+    position: relative;
+}
+.lang small{
+    position: absolute;
+    top: 340px;
+    left: 555px;
+}
+
+.location{
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    height: auto;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+    opacity: .8;
+    bottom: 45px;
+    
+}
+
+.location p{
+    text-align: left;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgrey;
+    opacity: .8;
+}
+.right{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.left{
+    float: left;
+    list-style-type: none;
+}
+.left li{
+    float: left;
+    margin: 5px;
+}
+.right li{
+    float: right;
+    margin: 5px;
+}
+.left li a, .right li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.left li a:hover, .right li a:hover{
+    text-decoration: underline;
+}
